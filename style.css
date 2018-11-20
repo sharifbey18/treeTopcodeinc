@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(119, 120, 119);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: right;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(135, 169, 107);
+  }
+
+ 
+  
+  .active {
+    background-color: rgb(135, 169, 107);
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+.container {
+    padding-left: 15%;
+    padding-right: 33%;
+    padding-top: 20px;
+    
+}
+
+.self {
+  float: left;
+  padding-right: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+}
+
+.image {
+    position: relative;
+    width: 90%;
+    height: 286px;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(119, 120, 119);
+}
+
+h4 {
+    text-align: center;
+}
+
+h3 {
+    border-bottom: 2px solid rgb(135, 169, 107);
+    padding-left: 10%;
+    padding-top: 5%;
+    
+}
+
+h1 { 
+    padding-left: 5%;
+    padding-top: 5%;
+}
+h2 {
+    text-align: center;
+}
